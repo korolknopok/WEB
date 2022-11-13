@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+body {
+    font-family: 'Xanh Mono', monospace;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50pt
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}

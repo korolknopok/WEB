@@ -1,0 +1,13 @@
+#history {
+    overflow: hidden;
+    background: #46c0c7;
+    width: 60%;
+}
+.picture{
+    float: right;
+    background: #99f;
+}
+.head{
+    text-align: center;
+    font-size: 4em;
+}

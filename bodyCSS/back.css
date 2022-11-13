@@ -1,0 +1,22 @@
+html, body {
+    width: 100%;
+    height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #cae071, #d24c70, #e19759, #4cddea);
+    background-size: 400% 400%;
+    animation: gradien 15s ease infinite;
+}
+
+@keyframes gradien {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
