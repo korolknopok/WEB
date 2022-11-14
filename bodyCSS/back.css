@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(-45deg, #cae071, #d24c70, #e19759, #4cddea);
+    background-image: url("../picture/BMW_FON.jpg");
     background-size: 400% 400%;
     animation: gradien 15s ease infinite;
 }

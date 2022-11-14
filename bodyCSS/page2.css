@@ -6,17 +6,28 @@ body {
 }
 
 #header {
-    background: #F5DEB3;
     width: 100%;
-    height: 55px;
+    height: 90px;
+    font-size: xxx-large;
+}
+
+#sidebar {
+    float: right;
+    width: 20%;
+    height: var(--heigt-primary);
+}
+
+#BMWLOGO{
+    width: 10%;
+    text-align: right;
+
 }
 
 #container {
-    background: #FFD700;
     margin: auto auto;
     text-align: center;
-    width: 80%;
-    height: 400px;
+    width: 90%;
+    height: 30px;
 }
 
 #navigation {
@@ -25,18 +36,16 @@ body {
     height: 25px;
 }
 
-#sidebar {
-    background: #40E0D0;
+#content #type {
     float: left;
-    width: 20%;
-    height: 280px;
+    text-align: left;
+    font-size: 20px;
+    width: 80%;
 }
 
-#content {
-    background: #DCDCDC;
-    float: right;
-    width: 80%;
-    height: 280px;
+#content h2 {
+    font-size: 35px;
+    margin-top: 0;
 }
 
 #clear {
@@ -47,4 +56,44 @@ body {
     background: #00BFFF;
     width: 100%;
     height: 40px;
+    text-align: left;
 }
+
+span.bold {
+    font-weight: bold;
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.pLeft p{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.pLeft{
+    float: left;
+    text-align: left
+}
+
+.pRigth p{
+    margin-right: 10px;
+}
+
+.pRigth{
+
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+}
+td, th {
+    padding: 3px 7px 2px 7px;
+    color: #FFFFFF;
+}
+tr:nth-child(even) { background-color: #0b0908; }
+tr:nth-child(odd) { background-color: #1c120d; }
