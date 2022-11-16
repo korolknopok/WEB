@@ -17,7 +17,7 @@ body {
     height: var(--heigt-primary);
 }
 
-#BMWLOGO{
+#BMWLOGO {
     width: 10%;
     text-align: right;
 
@@ -68,21 +68,46 @@ p {
     margin-bottom: 2px;
 }
 
-.pLeft p{
+.pLeft p {
     margin-left: 10px;
     font-weight: bold;
 }
 
-.pLeft{
+.zzz{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid red;
+    transition: 1s;
+    margin-left: 270px;
+
+}
+
+.pLeft {
     float: left;
     text-align: left
 }
 
-.pRigth p{
+#left_col {
+    width: 15%;
+}
+
+#timerBlock {
+    border: 0.5px solid black;
+
+}
+
+#dateBlock {
+    border: 0.5px solid black;
+    margin-top: 5px;
+}
+
+.pRigth p {
     margin-right: 10px;
 }
 
-.pRigth{
+.pRigth {
 
 }
 
@@ -91,9 +116,16 @@ table {
     border-collapse: collapse;
     text-align: left;
 }
+
 td, th {
     padding: 3px 7px 2px 7px;
     color: #FFFFFF;
 }
-tr:nth-child(even) { background-color: #0b0908; }
-tr:nth-child(odd) { background-color: #1c120d; }
+
+tr:nth-child(even) {
+    background-color: #0b0908;
+}
+
+tr:nth-child(odd) {
+    background-color: #1c120d;
+}

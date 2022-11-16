@@ -4,7 +4,29 @@
     <meta charset="UTF-8">
     <link rel = "stylesheet" href="../bodyCSS/styleheet.css" type="text/css" />
     <link rel="stylesheet" href="../bodyCSS/back.css" type="text/css">
+    <script src="../js/script_redirect.js" type="text/javascript"></script>
     <title>Laboratory work</title>
+    <style>
+        .zzz{
+            background-color: rgba(187, 59, 239, 0.31);
+            height: 35px;
+            width: 150px;
+            transition: 1s;
+            margin-left: 270px;
+
+        }
+        .zzz:hover  {
+            color: white;
+            background-color: #02010e;
+            height: 35px;
+            width: 150px;
+            transition: 1s;
+            margin-left: 270px;
+        }
+        .xxx{
+
+        }
+    </style>
 </head>
 <body>
 <table style="width: 100%; padding: 0;border-spacing: 0">
@@ -16,14 +38,22 @@
         <th width="70%">Всё об БМВ</th>
     </tr>
     <tr>
-        <td width="20%">
-            <ul>
-                <li><a href="storyPage.html" title="Story Of BMW">Story</a></li>
-                <li><a href="Activity.html" title="Activity Of BMW">Activity</a></li>
-                <li><a href="FavoriteBMWmodels.html" title="Favorite BMW models">Favorite BMW models</a></li>
-            </ul>
+        <td width="5%">
+            <div class = "xxx" >
+                <p class="zzz" onclick="redirect('storyPage.html')" >Story</p>
+                <p class="zzz" onclick="redirect('Activity.html')">Activity</p>
+                <p class="zzz" onclick="redirect('FavoriteBMWmodels.html')">Favorite BMW models</p>
+                <p class="zzz" onclick="redirect('variant.html')">Вариант 16</p>
+
+            </div>
         </td>
         <td width="80%">Сайт сделан любителем BMW и огромным фанатом Баварских моторов </td>
+        <div >
+            <a class="zzz" href="storyPage.html"; title="Story Of BMW">Story</a>
+            <a class="zzz" href="Activity.html" title="Activity Of BMW">Activity</a>
+            <a class="zzz" href="FavoriteBMWmodels.html" title="Favorite BMW models">Favorite BMW models</a>
+            <a class="zzz" href="variant.html" title="Вариант 16">Вариант 16</a>
+        </div>
     </tr>
     <tr>
         <td colspan=2><a href = "../Отчеты/Отчет_НазмутдиновА.О_571-2.pdf"> Отчёт </a> </td>

@@ -5,6 +5,9 @@
     <title>Блочная верстка</title>
     <link rel="stylesheet" href="../bodyCSS/page2.css" type="text/css">
     <link rel="stylesheet" href="../bodyCSS/navigation.css" type="text/css">
+    <script src="../js/script_clock.js" type="text/javascript"></script>
+    <script src="../js/script_timer.js" type="text/javascript"></script>
+    <script src="../js/script_redirect.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="container">
@@ -67,6 +70,21 @@
                     </td>
                 </tr>
             </table>
+            <td class="left_col">
+                <div id="dateBlock">
+                    <p id="clock"></p>
+                    <p id="date"></p>
+                    <script type="text/javascript">
+                        fulltime();
+                    </script>
+                </div>
+                <div id="timerBlock">
+                    <p id="timer">Вы находитесь на этой страничке 00:00:00</p>
+                    <script type="text/javascript">
+                        timer();
+                    </script>
+                </div>
+            </td>
         </div>
     </div>
     <div id="content">
